@@ -1,0 +1,6 @@
+{
+  "name": "@scope/server",
+  "exports": {
+    "./trpc": "./trpc/mod.ts"
+  }
+}

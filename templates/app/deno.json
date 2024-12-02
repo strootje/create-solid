@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "vinxi dev",
+    "build": "vinxi build"
+  },
+  "workspace": ["packages/*"],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "solid-js",
+    "lib": ["deno.ns", "dom", "dom.iterable", "dom.asynciterable", "webworker"],
+    "types": [
+      "vinxi/types/client",
+      "vite-plugin-pwa/info",
+      "vite-plugin-pwa/solid",
+      "@solidjs/start/env"
+    ]
+  }
+}

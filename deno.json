@@ -1,0 +1,14 @@
+{
+  "name": "@strootje/create-solid",
+  "version": "0.1.0",
+  "exports": "./main.ts",
+  "tasks": {
+    "dev": "deno run -A main.ts"
+  },
+  "imports": {
+    "@clack/prompts": "npm:@clack/prompts@^0.8.2",
+    "@std/fs": "jsr:@std/fs@^1.0.6",
+    "@std/path": "jsr:@std/path@^1.0.8",
+    "cmd-ts": "npm:cmd-ts@^0.13.0"
+  }
+}

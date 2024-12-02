@@ -1,0 +1,6 @@
+{
+  "name": "@scope/client",
+  "exports": {
+    "./trpc": "./trpc/mod.ts"
+  }
+}

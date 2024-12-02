@@ -1,0 +1,6 @@
+{
+  "name": "@scope/utils",
+  "exports": {
+    "./pwa": "./pwa/mod.ts"
+  }
+}

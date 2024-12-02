@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@deno/vite-plugin": "^1.0.1",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.1",
+    "@solidjs/start": "^1.0.10",
+    "@trpc/client": "^11.0.0-rc.648",
+    "@trpc/server": "^11.0.0-rc.648",
+    "@unocss/reset": "^0.65.0",
+    "solid-js": "^1.9.3",
+    "unocss": "^0.65.0",
+    "vinxi": "^0.4.3",
+    "vite-plugin-pwa": "^0.21.1"
+  }
+}
